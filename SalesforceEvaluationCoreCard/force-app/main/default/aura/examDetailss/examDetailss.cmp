@@ -1,0 +1,15 @@
+<aura:component>
+    <div class="slds-grid">
+
+        <!-- CERTIFICATION NAME select -->
+        <lightning:select name="certificationName" label="Certification Name" class="slds-col slds-p-left_xx-large slds-size_1-of-2">
+            <option value="app-builder">App Builder</option>
+            <option value="administrator">Administrator</option>
+            <option value="developer">Developer</option>
+        </lightning:select>
+
+        <!-- CERTIFICATION DATE input -->
+        <lightning:input type="date" name="certificationDate" label="Date" class="slds-col slds-p-left_xx-large slds-size_1-of-3" value="07/29/2020"/>
+    
+    </div>
+</aura:component>

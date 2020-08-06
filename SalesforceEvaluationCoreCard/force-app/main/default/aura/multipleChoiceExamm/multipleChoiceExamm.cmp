@@ -1,0 +1,9 @@
+<aura:component>
+
+    <!-- SCORE slider -->
+    <lightning:slider label="Score" value="{!v.val}" size="medium" class="slds-p-left_xx-large"/>
+
+    <!-- AREAS OF IMPROVEMENT textarea -->
+    <lightning:textarea label="Areas of Improvement" placeholder="Enter any areas of improvement" class="slds-p-left_xx-large slds-size_4-of-5"/>
+
+</aura:component>
