@@ -1,3 +1,5 @@
+<!-- COMPONENTE NUEVO -->
+
 <!-- PRINCIPAL COMPONENT -->
 <aura:component implements="force:appHostable">
 
