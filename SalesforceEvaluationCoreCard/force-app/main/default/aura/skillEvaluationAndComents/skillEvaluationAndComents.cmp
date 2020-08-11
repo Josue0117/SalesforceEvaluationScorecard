@@ -1,0 +1,16 @@
+<aura:component>
+    <aura:attribute name="componentTitle" type="String" />
+    <aura:attribute name="liked" default="false" type="Boolean" />
+    <aura:attribute name="answered" default="false" type="Boolean" />
+
+    <label for="like" class="slds-p-left_xx-large">{! v.componentTitle }</label>
+
+    <lightning:buttonIconStateful class="slds-p-left_xx-large" iconName="utility:like" selected="{! v.liked }" onclick="{! c.handleLikeButtonClick }" id="like" />
+    <lightning:buttonIconStateful class="slds-p-left_x-large" iconName="utility:like" selected="{! v.liked }" onclick="{! c.handleLikeButtonClick }" id="like" />
+    <lightning:buttonIconStateful class="slds-p-left_x-large" iconName="utility:dislike" selected="{! v.disliked }" onclick="{! c.handleDislikeButtonClick }" id="dislike" />
+    <lightning:buttonIconStateful class="slds-p-left_x-large" iconName="utility:favorite" selected="{! v.favorite }" onclick="{! c.handleFavoriteButtonClick }" id="favorite" />
+
+    <!-- COMMENTS textarea -->
+    <lightning:textarea label="Comments" placeholder="Enter any comments..." class="slds-p-left_xx-large slds-size_4-of-5"/>
+
+</aura:component>
