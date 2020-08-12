@@ -13,7 +13,7 @@
 
     <!-- EXERCISE card -->
     <lightning:card title="EXERCISE" class="slds-col slds-size_3-of-7">
-        <c:multipleChoiceExamm/>
+        <c:exercise/>
     </lightning:card>
 
 </aura:component>	

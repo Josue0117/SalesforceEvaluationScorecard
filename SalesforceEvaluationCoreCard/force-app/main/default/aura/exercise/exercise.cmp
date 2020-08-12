@@ -1,0 +1,10 @@
+<aura:component>
+        
+    <!-- EXAM DETAILS card -->
+    <c:skillEvaluationAndComents componentTitle="Technical Comunication"/>
+    <!-- FAMILIARITY WITH PLATFORM AND TERMINOLOGY card -->
+    <c:skillEvaluationAndComents componentTitle="Familiarity with Platform and Terminology"/>
+    <!-- PROBLEM RESOLUTION card -->
+    <c:skillEvaluationAndComents componentTitle="Problem Resolution"/>
+    
+</aura:component>
