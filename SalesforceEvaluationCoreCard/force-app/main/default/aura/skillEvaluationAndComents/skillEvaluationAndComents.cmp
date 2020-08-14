@@ -6,7 +6,11 @@
     <label for="like" class="slds-p-left_xx-large">{! v.componentTitle }</label>
 
     <lightning:buttonIconStateful class="slds-p-left_xx-large" iconName="utility:like" selected="{! v.liked }" onclick="{! c.handleLikeButtonClick }" id="like" />
+    
+    <!-- TODO: unknown icon, ask to Marijo -->
+    <!-- Probisional liked icon -->
     <lightning:buttonIconStateful class="slds-p-left_x-large" iconName="utility:like" selected="{! v.liked }" onclick="{! c.handleLikeButtonClick }" id="like" />
+    
     <lightning:buttonIconStateful class="slds-p-left_x-large" iconName="utility:dislike" selected="{! v.disliked }" onclick="{! c.handleDislikeButtonClick }" id="dislike" />
     <lightning:buttonIconStateful class="slds-p-left_x-large" iconName="utility:favorite" selected="{! v.favorite }" onclick="{! c.handleFavoriteButtonClick }" id="favorite" />
 
